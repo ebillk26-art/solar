@@ -1,0 +1,29 @@
+{
+  "model_name": "Solar Fault Detection YOLOv8n-cls",
+  "version": "1.0.0",
+  "created": "2025-12-25 12:37:53",
+  "architecture": "YOLOv8n-cls",
+  "accuracy": {
+    "top1": 75.88,
+    "top5": 98.46
+  },
+  "classes": [
+    "Cell",
+    "Cell-Multi",
+    "Cracking",
+    "Diode",
+    "Diode-Multi",
+    "Hot-Spot",
+    "Hot-Spot-Multi",
+    "No-Anomaly",
+    "Offline-Module",
+    "Shadowing",
+    "Soiling",
+    "Vegetation"
+  ],
+  "num_classes": 12,
+  "image_size": 224,
+  "training_images": 15996,
+  "developer": "Emmanuel Bilson",
+  "institution": "Ashesi University"
+}
